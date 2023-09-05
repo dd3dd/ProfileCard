@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    background-color: hsl(185, 75%, 39%);
+    background-position: right 50vw bottom 40vh, left 40vw top 45vh;
+}
+
+.profile {
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+
+}
+
+.card {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+
+}
+
+.person {
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 98px;
+    top: 68px;
+}
+
+.v2L {
+    position: relative;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.victor {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 22%;
+    left: 29%;
+
+}
+
+.my26 {
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    font-family: 'Kumbh Sans', sans-serif;
+    left: 110%;
+
+}
+
+.london {
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+    top: 37%;
+    left: 41%;
+}
+
+.myrow {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: 73%;
+    width: 99%;
+}
+
+.my80 {
+    position: absolute;
+    top: 64%;
+    left: 16%;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my803 {
+    position: absolute;
+    top: 64%;
+    left: 44%;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my14 {
+    position: absolute;
+    top: 64%;
+    left: 73%;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.followers {
+    position: absolute;
+    top: 79%;
+    left: 12%;
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+
+.likes {
+    position: absolute;
+    top: 79%;
+    left: 46%;
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.photos {
+    position: absolute;
+    top: 79%;
+    left: 72%;
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
